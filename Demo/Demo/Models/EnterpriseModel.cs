@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Demo.Models
 {
-    public class EnterpriseModel : BaseClient
+    public class EnterpriseModel : BaseRoutingObject
     {   
         public Dictionary<int, double> DictDistanceClients { get; set; }
 

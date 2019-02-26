@@ -12224,11 +12224,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Felipe Almeida\\source\\repos\\Demo\\Demo\\Demo.csproj",
+      "projectUniqueName": "C:\\Users\\Felipe Almeida\\Documents\\Projects\\RoutingAPP.git\\trunk\\Demo\\Demo\\Demo.csproj",
       "projectName": "Demo",
-      "projectPath": "C:\\Users\\Felipe Almeida\\source\\repos\\Demo\\Demo\\Demo.csproj",
+      "projectPath": "C:\\Users\\Felipe Almeida\\Documents\\Projects\\RoutingAPP.git\\trunk\\Demo\\Demo\\Demo.csproj",
       "packagesPath": "C:\\Users\\Felipe Almeida\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Felipe Almeida\\source\\repos\\Demo\\Demo\\obj\\",
+      "outputPath": "C:\\Users\\Felipe Almeida\\Documents\\Projects\\RoutingAPP.git\\trunk\\Demo\\Demo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

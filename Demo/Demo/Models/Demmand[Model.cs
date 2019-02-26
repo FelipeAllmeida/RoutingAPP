@@ -7,7 +7,7 @@ namespace Demo.Models
 {
     public class DemmandModel
     {
-        public float Weight { get; set; }
+        public float Weight { get { return Volume * 1000f; } }
         public float Volume { get; set; }
     }
 }

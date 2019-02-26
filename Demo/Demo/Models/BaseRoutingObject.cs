@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace Demo.Models
 {
-    public class ClientModel : BaseRoutingObject
+    public abstract class BaseRoutingObject
     {
-        public Position DeliverPosition;
-        public DemmandModel Cargo { get; set; }
+        public int Id;
+        public string Name;
     }
 }

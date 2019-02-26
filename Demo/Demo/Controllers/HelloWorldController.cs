@@ -25,6 +25,7 @@ namespace Demo.Controllers
             var enterprises = InitializeMockedEnterpriseData();
             CreateDistanceBetweenPairs(enterprises);
             CalculateEconomies(enterprises);
+            Routing(enterprises);
         }
 
         #region Parte 1 - Distancia entre pares de clientes e distancia entre ponto de entrega/empresa
@@ -110,12 +111,50 @@ namespace Demo.Controllers
         {
             for (int i = 0; i < listEnterprises.Count; i ++)
             {
+                var enterprise = listEnterprises[i];
 
-            }
-        }
-        #endregion
+                List<Travel> listTravels = enterprise.ListClients.Select(client => new Travel(enterprise.ListStartPoints[0])
+                {
+                    listClient = new List<ClientModel>() { client }
+                }).ToList();
 
-        #region Mocked Data
+                listTravels.ForEach(x => x.Update());
+                
+                for (int j = 0; j < listTravels.Count; j ++)
+                {
+                    Travel travel = listTravels[j];
+
+                    int vehicleIndex = 0;
+                    int EMERGENCY_EXIT = 0;
+                    bool assigned = false;
+                    do
+                    {
+                        // Erros:
+                        // Nenhum veiculo suporta a viagem - O que fazer aqui? 
+                        // - Dividir a viagem em dois veiculos
+                        // Acabou a km disponivel de todos os veiculos para dar assign nas viagens - O que fazer?
+                        // - Talvez criar viagens com o máximo de total distance baseado no total distance de todos os veiculos
+                        assigned = travel.AssignVehicle(enterprise.ListFleetVehicles[vehicleIndex]);
+                        if (assigned == false) vehicleIndex++;
+
+                        if (EMERGENCY_EXIT > 50)
+                            throw new ArgumentOutOfRangeException("Nenhum veiculo suporta a viagem");
+                        EMERGENCY_EXIT++;
+                    }
+                    while (assigned == false);
+                }
+
+                for (int j = 0; j < enterprise.ListEconomy.Count; j ++)
+                {
+                    var economy = enterprise.ListEconomy[j];
+
+
+                }       
+            }           
+        }                                          
+        #endregion                                 
+                                                   
+        #region Mocked Data                        
         private List<EnterpriseModel> InitializeMockedEnterpriseData()
         {
             List<EnterpriseModel> listEnterprises = new List<EnterpriseModel>();
@@ -174,7 +213,7 @@ namespace Demo.Controllers
                 listVehicle.Add(vehicleModel);
             }
 
-            return listVehicle;
+            return listVehicle.OrderBy(x => x.VolumeCapacity).ToList();
         }
 
         private DemmandModel CreateMockedDemmandData()
@@ -184,7 +223,6 @@ namespace Demo.Controllers
             int volume = new Random().Next(5, 20);
 
             demmand.Volume = volume;
-            demmand.Weight = volume * 1000;// On the future this can be change to consider the object type
 
             return demmand;
         }
@@ -193,8 +231,8 @@ namespace Demo.Controllers
         private Position CreateRandomPos()
         {
             Random random = new Random();
-            return new Position(random.Next((int)(2 * Math.Pow(10, 8)), (int)(3 * Math.Pow(10, 8))),
-                    random.Next((int)(5 * Math.Pow(10, 8)), (int)(6 * Math.Pow(10, 8))));
+            return new Position(random.Next((int)(2.5 * Math.Pow(10, 2)), (int)(3 * Math.Pow(10, 2))),
+                    random.Next((int)(5.5 * Math.Pow(10, 2)), (int)(6 * Math.Pow(10, 2))));
         }
 
     }
