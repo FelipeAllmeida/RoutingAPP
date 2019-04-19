@@ -70,3 +70,9 @@ C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Demo\obj\De
 C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Demo\obj\Debug\netcoreapp2.1\Demo.dll
 C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Demo\obj\Debug\netcoreapp2.1\Demo.pdb
 C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Demo\obj\Debug\netcoreapp2.1\Demo.csproj.CopyComplete
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Demo\bin\Debug\netcoreapp2.1\Common.dll
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Demo\bin\Debug\netcoreapp2.1\Model.dll
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Demo\bin\Debug\netcoreapp2.1\Service.dll
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Demo\bin\Debug\netcoreapp2.1\Model.pdb
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Demo\bin\Debug\netcoreapp2.1\Service.pdb
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Demo\bin\Debug\netcoreapp2.1\Common.pdb

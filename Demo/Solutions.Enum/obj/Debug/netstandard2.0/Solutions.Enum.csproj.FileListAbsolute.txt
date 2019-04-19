@@ -1,0 +1,9 @@
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Solutions.Enum\bin\Debug\netstandard2.0\Solutions.Enum.deps.json
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Solutions.Enum\bin\Debug\netstandard2.0\Solutions.Enum.dll
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Solutions.Enum\bin\Debug\netstandard2.0\Solutions.Enum.pdb
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Solutions.Enum\obj\Debug\netstandard2.0\Solutions.Enum.csprojAssemblyReference.cache
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Solutions.Enum\obj\Debug\netstandard2.0\Solutions.Enum.csproj.CoreCompileInputs.cache
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Solutions.Enum\obj\Debug\netstandard2.0\Solutions.Enum.AssemblyInfoInputs.cache
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Solutions.Enum\obj\Debug\netstandard2.0\Solutions.Enum.AssemblyInfo.cs
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Solutions.Enum\obj\Debug\netstandard2.0\Solutions.Enum.dll
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Solutions.Enum\obj\Debug\netstandard2.0\Solutions.Enum.pdb

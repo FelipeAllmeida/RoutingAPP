@@ -4615,6 +4615,51 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "Solutions.Common/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Solutions.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Solutions.Common.dll": {}
+        }
+      },
+      "Solutions.Enum/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Solutions.Enum.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Solutions.Enum.dll": {}
+        }
+      },
+      "Solutions.Model/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Solutions.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Solutions.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Solutions.Model.dll": {}
+        }
+      },
+      "Solutions.Service/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Solutions.Common": "1.0.0",
+          "Solutions.Enum": "1.0.0",
+          "Solutions.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Solutions.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Solutions.Service.dll": {}
+        }
       }
     }
   },
@@ -12208,13 +12253,35 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "Solutions.Common/1.0.0": {
+      "type": "project",
+      "path": "../Common/Solutions.Common.csproj",
+      "msbuildProject": "../Common/Solutions.Common.csproj"
+    },
+    "Solutions.Enum/1.0.0": {
+      "type": "project",
+      "path": "../Solutions.Enum/Solutions.Enum.csproj",
+      "msbuildProject": "../Solutions.Enum/Solutions.Enum.csproj"
+    },
+    "Solutions.Model/1.0.0": {
+      "type": "project",
+      "path": "../Model/Solutions.Model.csproj",
+      "msbuildProject": "../Model/Solutions.Model.csproj"
+    },
+    "Solutions.Service/1.0.0": {
+      "type": "project",
+      "path": "../Service/Solutions.Service.csproj",
+      "msbuildProject": "../Service/Solutions.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.1"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.1",
+      "Solutions.Model >= 1.0.0",
+      "Solutions.Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12224,9 +12291,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Felipe Almeida\\Documents\\Projects\\RoutingAPP.git\\trunk\\Demo\\Demo\\Demo.csproj",
-      "projectName": "Demo",
-      "projectPath": "C:\\Users\\Felipe Almeida\\Documents\\Projects\\RoutingAPP.git\\trunk\\Demo\\Demo\\Demo.csproj",
+      "projectUniqueName": "C:\\Users\\Felipe Almeida\\Documents\\Projects\\RoutingAPP.git\\trunk\\Demo\\Demo\\Solutions.Middleware.API.csproj",
+      "projectName": "Solutions.Middleware.API",
+      "projectPath": "C:\\Users\\Felipe Almeida\\Documents\\Projects\\RoutingAPP.git\\trunk\\Demo\\Demo\\Solutions.Middleware.API.csproj",
       "packagesPath": "C:\\Users\\Felipe Almeida\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Felipe Almeida\\Documents\\Projects\\RoutingAPP.git\\trunk\\Demo\\Demo\\obj\\",
       "projectStyle": "PackageReference",
@@ -12246,7 +12313,14 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Felipe Almeida\\Documents\\Projects\\RoutingAPP.git\\trunk\\Demo\\Model\\Solutions.Model.csproj": {
+              "projectPath": "C:\\Users\\Felipe Almeida\\Documents\\Projects\\RoutingAPP.git\\trunk\\Demo\\Model\\Solutions.Model.csproj"
+            },
+            "C:\\Users\\Felipe Almeida\\Documents\\Projects\\RoutingAPP.git\\trunk\\Demo\\Service\\Solutions.Service.csproj": {
+              "projectPath": "C:\\Users\\Felipe Almeida\\Documents\\Projects\\RoutingAPP.git\\trunk\\Demo\\Service\\Solutions.Service.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,0 +1,11 @@
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Service\bin\Debug\Service.dll
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Service\bin\Debug\Service.pdb
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Service\bin\Debug\Common.dll
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Service\bin\Debug\Model.dll
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Service\bin\Debug\Common.pdb
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Service\bin\Debug\Model.pdb
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Service\obj\Debug\Service.csprojAssemblyReference.cache
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Service\obj\Debug\Service.csproj.CopyComplete
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Service\obj\Debug\Service.dll
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Service\obj\Debug\Service.pdb

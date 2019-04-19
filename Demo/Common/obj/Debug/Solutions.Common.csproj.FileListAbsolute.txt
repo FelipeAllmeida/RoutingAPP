@@ -1,0 +1,6 @@
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Common\bin\Debug\Common.dll
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Common\bin\Debug\Common.pdb
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Common\obj\Debug\Solutions.Common.csproj.CoreCompileInputs.cache
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Common\obj\Debug\Common.dll
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Common\obj\Debug\Common.pdb
+C:\Users\Felipe Almeida\Documents\Projects\RoutingAPP.git\trunk\Demo\Common\obj\Debug\Solutions.Common.csprojAssemblyReference.cache
